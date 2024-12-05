@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D697FFD72D01A5CD00D74E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D697FFB32D01A5CB00D74E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D697FFBA2D01A5CB00D74E7B;
+			remoteInfo = "Objective-C-LinkedinList";
+		};
+		D697FFE12D01A5CD00D74E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D697FFB32D01A5CB00D74E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D697FFBA2D01A5CB00D74E7B;
+			remoteInfo = "Objective-C-LinkedinList";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D697FFBB2D01A5CB00D74E7B /* Objective-C-LinkedinList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-LinkedinList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D697FFD62D01A5CD00D74E7B /* Objective-C-LinkedinListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-LinkedinListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D697FFE02D01A5CD00D74E7B /* Objective-C-LinkedinListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-LinkedinListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D697FFE82D01A5CE00D74E7B /* Exceptions for "Objective-C-LinkedinList" folder in "Objective-C-LinkedinList" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D697FFBA2D01A5CB00D74E7B /* Objective-C-LinkedinList */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D697FFBD2D01A5CB00D74E7B /* Objective-C-LinkedinList */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D697FFE82D01A5CE00D74E7B /* Exceptions for "Objective-C-LinkedinList" folder in "Objective-C-LinkedinList" target */,
+			);
+			path = "Objective-C-LinkedinList";
+			sourceTree = "<group>";
+		};
+		D697FFD92D01A5CD00D74E7B /* Objective-C-LinkedinListTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-LinkedinListTests";
+			sourceTree = "<group>";
+		};
+		D697FFE32D01A5CD00D74E7B /* Objective-C-LinkedinListUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-LinkedinListUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D697FFB82D01A5CB00D74E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697FFD32D01A5CD00D74E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697FFDD2D01A5CD00D74E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D697FFB22D01A5CB00D74E7B = {
+			isa = PBXGroup;
+			children = (
+				D697FFBD2D01A5CB00D74E7B /* Objective-C-LinkedinList */,
+				D697FFD92D01A5CD00D74E7B /* Objective-C-LinkedinListTests */,
+				D697FFE32D01A5CD00D74E7B /* Objective-C-LinkedinListUITests */,
+				D697FFBC2D01A5CB00D74E7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D697FFBC2D01A5CB00D74E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D697FFBB2D01A5CB00D74E7B /* Objective-C-LinkedinList.app */,
+				D697FFD62D01A5CD00D74E7B /* Objective-C-LinkedinListTests.xctest */,
+				D697FFE02D01A5CD00D74E7B /* Objective-C-LinkedinListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D697FFBA2D01A5CB00D74E7B /* Objective-C-LinkedinList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D697FFE92D01A5CE00D74E7B /* Build configuration list for PBXNativeTarget "Objective-C-LinkedinList" */;
+			buildPhases = (
+				D697FFB72D01A5CB00D74E7B /* Sources */,
+				D697FFB82D01A5CB00D74E7B /* Frameworks */,
+				D697FFB92D01A5CB00D74E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D697FFBD2D01A5CB00D74E7B /* Objective-C-LinkedinList */,
+			);
+			name = "Objective-C-LinkedinList";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-LinkedinList";
+			productReference = D697FFBB2D01A5CB00D74E7B /* Objective-C-LinkedinList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D697FFD52D01A5CD00D74E7B /* Objective-C-LinkedinListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D697FFEE2D01A5CE00D74E7B /* Build configuration list for PBXNativeTarget "Objective-C-LinkedinListTests" */;
+			buildPhases = (
+				D697FFD22D01A5CD00D74E7B /* Sources */,
+				D697FFD32D01A5CD00D74E7B /* Frameworks */,
+				D697FFD42D01A5CD00D74E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D697FFD82D01A5CD00D74E7B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D697FFD92D01A5CD00D74E7B /* Objective-C-LinkedinListTests */,
+			);
+			name = "Objective-C-LinkedinListTests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-LinkedinListTests";
+			productReference = D697FFD62D01A5CD00D74E7B /* Objective-C-LinkedinListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D697FFDF2D01A5CD00D74E7B /* Objective-C-LinkedinListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D697FFF12D01A5CE00D74E7B /* Build configuration list for PBXNativeTarget "Objective-C-LinkedinListUITests" */;
+			buildPhases = (
+				D697FFDC2D01A5CD00D74E7B /* Sources */,
+				D697FFDD2D01A5CD00D74E7B /* Frameworks */,
+				D697FFDE2D01A5CD00D74E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D697FFE22D01A5CD00D74E7B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D697FFE32D01A5CD00D74E7B /* Objective-C-LinkedinListUITests */,
+			);
+			name = "Objective-C-LinkedinListUITests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-LinkedinListUITests";
+			productReference = D697FFE02D01A5CD00D74E7B /* Objective-C-LinkedinListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D697FFB32D01A5CB00D74E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D697FFBA2D01A5CB00D74E7B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D697FFD52D01A5CD00D74E7B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D697FFBA2D01A5CB00D74E7B;
+					};
+					D697FFDF2D01A5CD00D74E7B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D697FFBA2D01A5CB00D74E7B;
+					};
+				};
+			};
+			buildConfigurationList = D697FFB62D01A5CB00D74E7B /* Build configuration list for PBXProject "Objective-C-LinkedinList" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D697FFB22D01A5CB00D74E7B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D697FFBC2D01A5CB00D74E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D697FFBA2D01A5CB00D74E7B /* Objective-C-LinkedinList */,
+				D697FFD52D01A5CD00D74E7B /* Objective-C-LinkedinListTests */,
+				D697FFDF2D01A5CD00D74E7B /* Objective-C-LinkedinListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D697FFB92D01A5CB00D74E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697FFD42D01A5CD00D74E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697FFDE2D01A5CD00D74E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D697FFB72D01A5CB00D74E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697FFD22D01A5CD00D74E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D697FFDC2D01A5CD00D74E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D697FFD82D01A5CD00D74E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D697FFBA2D01A5CB00D74E7B /* Objective-C-LinkedinList */;
+			targetProxy = D697FFD72D01A5CD00D74E7B /* PBXContainerItemProxy */;
+		};
+		D697FFE22D01A5CD00D74E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D697FFBA2D01A5CB00D74E7B /* Objective-C-LinkedinList */;
+			targetProxy = D697FFE12D01A5CD00D74E7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D697FFEA2D01A5CE00D74E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-LinkedinList/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-LinkedinList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D697FFEB2D01A5CE00D74E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-LinkedinList/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-LinkedinList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D697FFEC2D01A5CE00D74E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D697FFED2D01A5CE00D74E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D697FFEF2D01A5CE00D74E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-LinkedinListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-LinkedinList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-LinkedinList";
+			};
+			name = Debug;
+		};
+		D697FFF02D01A5CE00D74E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-LinkedinListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-LinkedinList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-LinkedinList";
+			};
+			name = Release;
+		};
+		D697FFF22D01A5CE00D74E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-LinkedinListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-LinkedinList";
+			};
+			name = Debug;
+		};
+		D697FFF32D01A5CE00D74E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-LinkedinListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-LinkedinList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D697FFB62D01A5CB00D74E7B /* Build configuration list for PBXProject "Objective-C-LinkedinList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D697FFEC2D01A5CE00D74E7B /* Debug */,
+				D697FFED2D01A5CE00D74E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D697FFE92D01A5CE00D74E7B /* Build configuration list for PBXNativeTarget "Objective-C-LinkedinList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D697FFEA2D01A5CE00D74E7B /* Debug */,
+				D697FFEB2D01A5CE00D74E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D697FFEE2D01A5CE00D74E7B /* Build configuration list for PBXNativeTarget "Objective-C-LinkedinListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D697FFEF2D01A5CE00D74E7B /* Debug */,
+				D697FFF02D01A5CE00D74E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D697FFF12D01A5CE00D74E7B /* Build configuration list for PBXNativeTarget "Objective-C-LinkedinListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D697FFF22D01A5CE00D74E7B /* Debug */,
+				D697FFF32D01A5CE00D74E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D697FFB32D01A5CB00D74E7B /* Project object */;
+}
